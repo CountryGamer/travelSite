@@ -1,3 +1,6 @@
+/*
+This file is used to build the web browser safe CSS file.  This is where all the importing happens and the conversation happens when we are running 'gulp watch' Look at ./gulpfile.js, you want to look at the watch task and then make sure you look at the styles task because that is where we use gulp and pipe to transform this file into the one you can find at ./app/temp/styles/styles.css  It is amazing to me how just 3 lines of code can produce that large code.
+*/
 @import "normalize.css";
 @import "base/_global";
 @import "modules/_large-hero";
